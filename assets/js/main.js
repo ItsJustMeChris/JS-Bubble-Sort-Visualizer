@@ -21,9 +21,8 @@ const bubbleSort = (arr) => {
 }
 
 const setup = () => {
-    for (let i = 0; i < c.width; i++) {
+    for (let i = 0; i < c.width; i++) 
         ints.push(Math.floor(Math.random() * c.height) + 1);
-    }
 }
 
 const draw = () => {
